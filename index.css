@@ -1,0 +1,92 @@
+@font-face {
+    font-family: wolf;
+    src: url(Wolfsburg\ Castle.otf);
+}
+@font-face {
+    font-family:caviar;
+    src: url(CaviarDreams.ttf);
+}
+nav{
+    margin-right: 6%;
+    margin-left: 4%;
+    margin-top:0%;
+    padding-top: 0%;
+    font-family: stretchpro;
+    font-size: 100%;
+}
+
+body{
+    background-image: linear-gradient(rgb(255, 255, 255),rgb(100, 56, 29));
+}
+
+h3{
+    
+    padding-top: 4%;
+    margin-bottom: 0%;
+    color: rgb(100, 56, 29);  
+    font-size: 160%;
+    font-family: gogh;
+    font-weight: lighter;
+}
+h4{
+    
+    margin-left: 2%;
+    margin-top: 0%;
+    margin-bottom: 0;
+    color: aliceblue;
+    font-size: 620%;
+    font-weight: lighter;
+    font-family: wolf;
+}
+h5{
+    font-family: caviar;
+    font-weight: lighter;
+}
+p{
+   
+    padding-bottom: 4%;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 5%;
+    color: rgb(100, 56, 29);
+    font-size:100%;
+    font-family: caviar;
+    font-weight: lighter;
+}
+.discription h3{
+    margin: 0%;
+    text-align: center;
+    font-size: 30px;
+   
+}
+.div1{
+    display: flex;
+}
+.discription p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 2%;  
+}
+
+@media screen and(min-width:1024px){
+    nav{
+        font-size: 25px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    
+    h3{
+        font-size: 25px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+   
+    p{
+        font-size: 15px;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+   .div2 h3{
+        font-size: 23px;
+    }
+}
